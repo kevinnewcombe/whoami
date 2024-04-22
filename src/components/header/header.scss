@@ -1,0 +1,14 @@
+header{
+  padding: var(--space-small) 0;
+  margin-bottom: var(--space-large);
+}
+
+.header{
+  &__interior{
+    display: flex;
+    align-items: center;
+  }
+  &__title{
+    flex: 1;
+  }
+}

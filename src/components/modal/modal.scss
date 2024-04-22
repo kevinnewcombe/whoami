@@ -1,0 +1,27 @@
+.modal {
+  border: none;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.modal[open] {
+  animation: animateModalIn 0.35s ease-out;
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+
+@keyframes animateModalIn {
+  0% {
+    transform: translateY(-15%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

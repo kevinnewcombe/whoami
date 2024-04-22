@@ -1,0 +1,23 @@
+@use "/src/styles/utilities/mixins";
+
+label{
+  font-size: mixins.rem(14);
+  font-weight: 600;
+}
+
+input{
+  border: 1px solid var(--color-input-border);
+  border-radius: 4px;
+  color:var(--color-input-color);
+  width: 100%;
+  font-size: mixins.rem(16);
+  outline: none;
+  padding: var(--space-small);
+  transition:var(--transition);
+  position: relative;
+  background: transparent;
+  margin-top: var(--space-xsmall);
+  &:focus{
+    border-color: var(--color-accent);
+  }
+}

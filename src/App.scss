@@ -1,0 +1,21 @@
+@import 'styles/base/vars.scss';
+@import 'styles/base/global.scss';
+@import 'styles/base/typography.scss';
+@import 'styles/base/buttons.scss';
+@import 'styles/base/forms.scss';
+
+.app{
+  margin: 0 auto;
+  max-width: var(--page-width);
+  padding: 0 var(--space-small);
+}
+
+.responses{
+  margin-top: var(--space-xlarge);
+}
+
+.buttons{
+  margin-top: var(--space-xlarge);
+  gap: 10px;
+  display: flex;
+}

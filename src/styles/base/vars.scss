@@ -1,0 +1,31 @@
+:root{
+  // colors
+  --color-page-bg: #222737;
+  --color-accent: #f9a826;
+  --color-accent-alt: #f59700;
+  --color-divider: #333;
+  --color-primary-text: #fff;
+  --color-faint-bg-default: rgba(255, 255, 255, 0.1);
+  --color-faint-bg-focus: rgba(255, 255, 255, 0.2);
+
+  --color-input-border: #919191;
+  --color-input-focus: #27d4ff;
+ 
+  // sizes
+  --space-xsmall: 8px;
+  --space-small: 16px;
+  --space-medium: 24px;
+  --space-large: 32px;
+  --space-xlarge: 48px;
+
+  --page-width: 1000px;
+  
+  // Animation
+  --transition-duration: 0.25s;
+}
+
+@media (prefers-reduced-motion) {
+  :root{
+    --transition-duration: 0s;
+  }
+}

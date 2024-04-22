@@ -1,0 +1,34 @@
+@use "/src/styles/utilities/mixins";
+
+button{
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: mixins.rem(16);
+  background:var(--color-faint-bg-default);
+  color: var(--color-accent);
+  padding: var(--space-xsmall) var(--space-small);
+  border-radius: 10px;
+  transition: background var(--transition-duration);
+  &:hover, &:focus{
+    background:var(--color-faint-bg-focus);
+  }
+}
+
+
+
+.button--secondary{
+  font-size: mixins.rem(14);
+  padding: var(--space-xsmall);
+  border-radius: 5px;
+}
+
+.button--inverse{
+  background: var(--color-accent);
+  color:var(--color-primary-text);
+
+  &:hover,
+  &:focus{
+    background: var(--color-accent-alt);
+  }
+}
