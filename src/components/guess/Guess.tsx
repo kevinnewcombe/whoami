@@ -11,7 +11,7 @@ const Guess: React.FC<{onGuess(question:string):void}>= ({onGuess}) => {
   }
   return (
     <form onSubmit={ askQuestion }>
-      <label htmlFor="ask">Question</label>
+      <label htmlFor="ask"><strong>Question</strong> (example: 'Are you an actor?')</label>
       <input id="ask" ref={ inputRef }/> 
     </form>
   );

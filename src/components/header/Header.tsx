@@ -5,7 +5,7 @@ const Header: React.FC<{onInstructionsClick(modalBody:ReactElement):void}>= ({on
   const modalBody = (
     <>
       <h1>How to play</h1>
-      <p>I'm thinking of a famous person, either real or fictional. You have to determine my indentity by asking a bunch of yes or no questions. When you think you know my indentity, straight up ask me "Are you 'x'?".</p>
+      <p>I'm pretending to be famous person, either real or fictional. You have to determine my indentity by asking a bunch of yes or no questions. When you think you know my indentity, straight up ask me "Are you 'x'?".</p>
       <p>Signed,<br />🤖</p>
     </>
   );
