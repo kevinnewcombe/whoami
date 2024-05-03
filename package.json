@@ -1,5 +1,5 @@
 {
-  "name": "Who Am I?",
+  "name": "whoami",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
