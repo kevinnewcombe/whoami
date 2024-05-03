@@ -1,5 +1,5 @@
 # Who Am I game
-An OpenAI-powered Who Am I game?
+An OpenAI-powered Who Am I game? 
 
 # Setup 
 * Duplicate `.env.example` at `.env`
