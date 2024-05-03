@@ -94,7 +94,7 @@ function App() {
       <main>
         <Guess onGuess={onGuess} />
         <div className="buttons">
-          <button className={ 'button button--primary'} onClick={ restartGame }>RESTART GAME</button>
+          <button className={ 'button button--primary'} onClick={ restartGame }>NEW GAME</button>
           <button className={ 'button button--primary'} onClick={revealPerson}>REVEAL PERSON</button>
         </div>
         <div className="responses" role="region" aria-live="polite">
