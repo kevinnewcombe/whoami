@@ -1,5 +1,5 @@
 # Who Am I game
-An OpenAI-powered Who Am I game? 
+An OpenAI-powered Who Am I game? Deploys from [https://whoami.kevin-newcombe.com](https://whoami.kevin-newcombe.com)
 
 # Setup 
 * Duplicate `.env.example` at `.env`
